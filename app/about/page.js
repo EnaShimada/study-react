@@ -3,6 +3,8 @@ import styles from "../page.module.css";
 import { Footer } from "../../components/Footer";
 import { Links } from "../../components/Links";
 import { Headline } from "../../components/Headline";
+import { Main } from "../../components/Main.js";
+
 
 export default function Home() {
   return (
