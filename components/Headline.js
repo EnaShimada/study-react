@@ -5,7 +5,8 @@ import styles from "../app/page.module.css";
 export function Headline(props) {
   return (
     <React.Fragment>
-      <h1>Hello, Let's Study!!!!<br></br>
+      <h1>
+        Hello, Let's Study!!!!<br></br>
         This is {props.page} Page.
       </h1>
       <Image
@@ -16,12 +17,7 @@ export function Headline(props) {
         height={38}
         priority
       />
-      <ol>
-        <li>
-          Get started by editing <code>{ props.page }</code>.
-        </li>
-        <li>Save and see your changes instantly.</li>
-      </ol>
+      {props.children}
     </React.Fragment>
   );
 }
